@@ -12,10 +12,10 @@ int main() {
 ## Class Repositories
   - [sowens23-GitHub](https://github.com/sowens23)
   - [GitHubPortal](https://github.com/sowens23/Newbie-Gains/blob/main/README.md)
-  - CS-F411 Class Homepage
+  - [CS-F411 Class Canvas](https://canvas.alaska.edu/courses/31505/modules)
 
 ## References
-  - 
+  - Course Reading: [Intro to Algorithms](https://www.cs.mcgill.ca/~akroit/math/compsci/Cormen%20Introduction%20to%20Algorithms.pdf)
 
 ## Big Notes
   - 
@@ -27,26 +27,28 @@ int main() {
 ## Class Note Directory
 |            Week-## | Description | Quick Link | Other Notes | HW-## | Lab-## |
 | ------------------ | --- | --- | --- | --- | --- |
-| [Week-01](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-02](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-03](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-04](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-05](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-06](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-07](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-08](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-09](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-10](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-11](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-12](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-13](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-14](#Week-1) | --- | --- | --- | --- | --- |
-| [Week-15](#Week-1) | --- | --- | --- | --- | --- |
+| [Week-01](#Week-01) | --- | --- | --- | --- | --- |
+| [Week-02](#Week-02) | --- | --- | --- | --- | --- |
+| [Week-03](#Week-03) | --- | --- | --- | --- | --- |
+| [Week-04](#Week-04) | --- | --- | --- | --- | --- |
+| [Week-05](#Week-05) | --- | --- | --- | --- | --- |
+| [Week-06](#Week-06) | --- | --- | --- | --- | --- |
+| [Week-07](#Week-07) | --- | --- | --- | --- | --- |
+| [Week-08](#Week-08) | --- | --- | --- | --- | --- |
+| [Week-09](#Week-09) | --- | --- | --- | --- | --- |
+| [Week-10](#Week-10) | --- | --- | --- | --- | --- |
+| [Week-11](#Week-11) | --- | --- | --- | --- | --- |
+| [Week-12](#Week-12) | --- | --- | --- | --- | --- |
+| [Week-13](#Week-13) | --- | --- | --- | --- | --- |
+| [Week-14](#Week-14) | --- | --- | --- | --- | --- |
+| [Week-15](#Week-15) | --- | --- | --- | --- | --- |
 
 # Class Notes
 
 ## Week-01
-[08-24-26 - 08-30-26](#TOP)  
+[08-24-26 - 08-30-26](#TOP)
+- 8/24/26 Why do Algorithms Matter
+  - 
 
 ## Week-02
 [08/31/26 - 09/06/26](#TOP)  
