@@ -47,8 +47,12 @@ int main() {
 
 ## Week-01
 [08-24-26 - 08-30-26](#TOP)
-- 8/24/26 Why do Algorithms Matter
-  - 
+  - A faster computer can make a program faster. A faster algorithm can make the impossible possible!
+  - Measuing the speed of an algorithm is a difficult task.
+  - Wall-clock time measures even with the same algorithm, can be impacted by hardware, OS, language, compiler, hardware load, etc.
+  - We're spending a lot of time reviewing big O notation and which components of a time complexity analysis are most important.
+  - Scalability Timeline
+    - 1 > logn > n > nlogn > n^2 > n^3 > 2^n > n!
 
 ## Week-02
 [08/31/26 - 09/06/26](#TOP)  
