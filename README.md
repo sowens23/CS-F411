@@ -53,6 +53,22 @@ int main() {
   - We're spending a lot of time reviewing big O notation and which components of a time complexity analysis are most important.
   - Scalability Timeline
     - 1 > logn > n > nlogn > n^2 > n^3 > 2^n > n!
+  - Big O: Defines an upper bound of the speed complexity of an algorithm where g(n) is always larger than f(n)
+  - Big Omega: Defines the asymptotic lower bound where g(n) is always smaller than f(n)
+  - Big Theta: Defines both asymptotically tight bound (Upper and Lower)
+    - So for example;
+      - f(n) = 4n^2 + 7n + 12 = BigTheta(n^2) for some cn^2
+      - Where:
+        - Big O = (4+7+12)n^2 = 25n^2
+        - Big Omega = 4n^2
+        - Such that:
+          4n^2 <= f(n) <= 25n^2 for (n >= 1)
+          
+  | *Notation* | Meaning | Mental Picture |
+  | --- | --- | --- |
+  | O(n) | Asymptotic Upper Bound | Ceiling |
+  | Ω(n) | Asymptotic Lower Bound | Floor |
+  | θ(n) | Squeeze | Bounds |
 
 ## Week-02
 [08/31/26 - 09/06/26](#TOP)  
