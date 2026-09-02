@@ -66,12 +66,19 @@ int main() {
           
   | *Notation* | Meaning | Mental Picture |
   | --- | --- | --- |
-  | O(n) | Asymptotic Upper Bound | Ceiling |
-  | Ω(n) | Asymptotic Lower Bound | Floor |
-  | θ(n) | Squeeze | Bounds |
+  | f = O(n) | No faster than g | Bounded above |
+  | f = o(n) | Strictly slower than g | Ratio -> 0 |
+  | f = Ω(n) | No slower than g | Bounded Below |
+  | f = w(n) | Strictly faster than g | Ratio -> inf |
+  | f = θ(n) | Same asymptotic rate | Ratio behaves like a constant |
 
 ## Week-02
 [08/31/26 - 09/06/26](#TOP)  
+  - If you take the limit ratio of two notations ex. 
+    - n^2 vs n = (n^2)/n = Infinity   (little-w) (strictly faster)
+    - n vs n^2 = n/(n^2) = Zero       (big o)
+    - Set relationships
+      1. o(g)
 
 ## Week-03
 [09/07/26 - 09/13/26](#TOP)  
