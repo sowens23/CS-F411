@@ -79,6 +79,46 @@ int main() {
     - n vs n^2 = n/(n^2) = Zero       (big o)
     - Set relationships
       1. o(g)
+  - Choose your proof weapon
+
+    | | **Direct** | **Contrapositive** | **Contradiction** | **Induction** |
+    | --- | --- | --- | --- | --- |
+    | **Assumption** | Start with P | Start with -Q | Assume the bad world | First domino |
+    | **Method of Proof** | Walk to Q | Reach -P | Make it impossible | Then every next one |
+    | Symbol | P => Q | -Q => -P |  
+
+  ### Direct Proof
+  - Claim: If *n* is even, then n^2 is even.
+    - If n is even, then *n-2k*
+    - Then n^2 = (2k)^2 = 4k^2 = 2(2k)^2
+    - Since we know n is an integer, n^2 is even.
+  - Claim: If a and b are odd, then a+b will be even
+    - If a = 2n+1 and b = 2m+1
+    - And a+b = 2n+1 + 2m+1 = 2(n+m+1)
+    - Therefore a+b is even.
+
+  ### Contrapositive Proof
+  - Contrapositive *not P* therefore *not Q*
+  - Claim: If *n* is even, then *n^2* is even
+    - If n *is odd*, then *n^2 is odd*
+    - Let n=2k+1, then (2k+1)^2 =4(k^2)+1
+    - Therefore claim is true because if n^2 is odd, then n is odd.
+
+  ### Contradiction Proof
+  - Prove that *not Q* is impossible through reason, therefore Q must be true.
+  - Logic: Assume that a lie is true, and pick it apart to prove that it's impossible to be true.
+  - Claim: There is a largest integer.
+    - If n is largest integer, then what is n+1
+    - n < n+1
+    - Therefore, there is no largest integer.
+
+  ### Induction Proof
+  - Induction is used to prove a series of iterations as a general concept that proves a starting case, and a general case to apply to every additional iteration.
+  - This is important in Computer Science, because we often deal in iterative formulas and loops.
+  - Claim: For every n in P(n) where n>=1.
+    - Prove P(1) is true
+    - Prove P(k) is true
+    - Prove P(k+1) is also true
 
 ## Week-03
 [09/07/26 - 09/13/26](#TOP)  
