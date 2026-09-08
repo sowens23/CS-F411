@@ -64,13 +64,13 @@ int main() {
         - Such that:
           4n^2 <= f(n) <= 25n^2 for (n >= 1)
           
-  | *Notation* | Meaning | Mental Picture |
-  | --- | --- | --- |
-  | f = O(n) | No faster than g | Bounded above |
-  | f = o(n) | Strictly slower than g | Ratio -> 0 |
-  | f = Ω(n) | No slower than g | Bounded Below |
-  | f = w(n) | Strictly faster than g | Ratio -> inf |
-  | f = θ(n) | Same asymptotic rate | Ratio behaves like a constant |
+  | *Notation* | Termin | Meaning | Mental Picture |
+  | --- | --- | --- | --- |
+  | f = O(n) | Big-O | No faster than g | Bounded above |
+  | f = o(n) | Little-O | Strictly slower than g | Ratio -> 0 |
+  | f = Ω(n) | Big Omega | No slower than g | Bounded Below |
+  | f = ω(n) | Little Omega | Strictly faster than g | Ratio -> inf |
+  | f = θ(n) | Theta | Same asymptotic rate | Ratio behaves like a constant |
 
 ## Week-02
 [08/31/26 - 09/06/26](#TOP)  
