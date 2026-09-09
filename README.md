@@ -45,32 +45,58 @@ int main() {
 
 # Class Notes
 
-## Week-01
-[08-24-26 - 08-30-26](#TOP)
-  - A faster computer can make a program faster. A faster algorithm can make the impossible possible!
-  - Measuing the speed of an algorithm is a difficult task.
-  - Wall-clock time measures even with the same algorithm, can be impacted by hardware, OS, language, compiler, hardware load, etc.
-  - We're spending a lot of time reviewing big O notation and which components of a time complexity analysis are most important.
-  - Scalability Timeline
-    - 1 > logn > n > nlogn > n^2 > n^3 > 2^n > n!
-  - Big O: Defines an upper bound of the speed complexity of an algorithm where g(n) is always larger than f(n)
-  - Big Omega: Defines the asymptotic lower bound where g(n) is always smaller than f(n)
-  - Big Theta: Defines both asymptotically tight bound (Upper and Lower)
-    - So for example;
-      - f(n) = 4n^2 + 7n + 12 = BigTheta(n^2) for some cn^2
-      - Where:
-        - Big O = (4+7+12)n^2 = 25n^2
-        - Big Omega = 4n^2
-        - Such that:
-          4n^2 <= f(n) <= 25n^2 for (n >= 1)
-          
-  | *Notation* | Meaning | Mental Picture |
-  | --- | --- | --- |
-  | f = O(n) | No faster than g | Bounded above |
-  | f = o(n) | Strictly slower than g | Ratio -> 0 |
-  | f = Ω(n) | No slower than g | Bounded Below |
-  | f = w(n) | Strictly faster than g | Ratio -> inf |
-  | f = θ(n) | Same asymptotic rate | Ratio behaves like a constant |
+## Week-03
+[09/07/26 - 09/13/26](#TOP)  
+  - When starting a project there are phases.
+  1. Functional and non-functional requirements.
+    - What does the system need to do?
+    - What are the constraints on the services, functions, and the development process.
+  2. *Requirements Elicitation* involves interviews with stakeholders, asking open ended questions.
+    - Talk to individuals that would use the app.
+    - Talk with stakeholders about what their vision is.
+    - Envision scenarios, and the flow of data, the user, an admin.
+  3. A *Software Requirements Document* is a list of all requirements for the product.
+    - Agile consider production of a single requirement to be a waste of time.
+    - User stories can help process features.
+    - This is not a design document.
+  4. 
+  - 
+
+## Week-04
+[09/14/26 - 09/20/26](#TOP)  
+
+## Week-05
+[09/21/26 - 09/27/26](#TOP)  
+
+## Week-06
+[09/28/26 - 10/04/26](#TOP)  
+
+## Week-07
+[10/05/26 - 10/11/26](#TOP)  
+
+## Week-08
+[10/12/26 - 10/18/26](#TOP)  
+
+## Week-09
+[10/19/26 - 10/25/26](#TOP)  
+
+## Week-10
+[10/26/26 - 11/01/26](#TOP)  
+
+## Week-11
+[11/02/26 - 11/08/26](#TOP)  
+
+## Week-12
+[11/09/26 - 11/15/26](#TOP)  
+
+## Week-13
+[11/16/26 - 11/22/26](#TOP)  
+
+## Week-14
+[11/23/26 - 11/24/26](#TOP)  
+
+## Week-15
+[11/30/26 - 12/06/26](#TOP)  
 
 ## Week-02
 [08/31/26 - 09/06/26](#TOP)  
@@ -120,41 +146,29 @@ int main() {
     - Prove P(k) is true
     - Prove P(k+1) is also true
 
-## Week-03
-[09/07/26 - 09/13/26](#TOP)  
-
-## Week-04
-[09/14/26 - 09/20/26](#TOP)  
-
-## Week-05
-[09/21/26 - 09/27/26](#TOP)  
-
-## Week-06
-[09/28/26 - 10/04/26](#TOP)  
-
-## Week-07
-[10/05/26 - 10/11/26](#TOP)  
-
-## Week-08
-[10/12/26 - 10/18/26](#TOP)  
-
-## Week-09
-[10/19/26 - 10/25/26](#TOP)  
-
-## Week-10
-[10/26/26 - 11/01/26](#TOP)  
-
-## Week-11
-[11/02/26 - 11/08/26](#TOP)  
-
-## Week-12
-[11/09/26 - 11/15/26](#TOP)  
-
-## Week-13
-[11/16/26 - 11/22/26](#TOP)  
-
-## Week-14
-[11/23/26 - 11/24/26](#TOP)  
-
-## Week-15
-[11/30/26 - 12/06/26](#TOP)  
+## Week-01
+[08-24-26 - 08-30-26](#TOP)
+  - A faster computer can make a program faster. A faster algorithm can make the impossible possible!
+  - Measuing the speed of an algorithm is a difficult task.
+  - Wall-clock time measures even with the same algorithm, can be impacted by hardware, OS, language, compiler, hardware load, etc.
+  - We're spending a lot of time reviewing big O notation and which components of a time complexity analysis are most important.
+  - Scalability Timeline
+    - 1 > logn > n > nlogn > n^2 > n^3 > 2^n > n!
+  - Big O: Defines an upper bound of the speed complexity of an algorithm where g(n) is always larger than f(n)
+  - Big Omega: Defines the asymptotic lower bound where g(n) is always smaller than f(n)
+  - Big Theta: Defines both asymptotically tight bound (Upper and Lower)
+    - So for example;
+      - f(n) = 4n^2 + 7n + 12 = BigTheta(n^2) for some cn^2
+      - Where:
+        - Big O = (4+7+12)n^2 = 25n^2
+        - Big Omega = 4n^2
+        - Such that:
+          4n^2 <= f(n) <= 25n^2 for (n >= 1)
+          
+  | *Notation* | Meaning | Mental Picture |
+  | --- | --- | --- |
+  | f = O(n) | No faster than g | Bounded above |
+  | f = o(n) | Strictly slower than g | Ratio -> 0 |
+  | f = Ω(n) | No slower than g | Bounded Below |
+  | f = w(n) | Strictly faster than g | Ratio -> inf |
+  | f = θ(n) | Same asymptotic rate | Ratio behaves like a constant |
