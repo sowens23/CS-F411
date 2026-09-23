@@ -59,14 +59,79 @@ int main() {
     - Agile consider production of a single requirement to be a waste of time.
     - User stories can help process features.
     - This is not a design document.
-  4. 
-  - 
 
 ## Week-04
-[09/14/26 - 09/20/26](#TOP)  
+[09/14/26 - 09/20/26](#TOP) 
+  #### Kanban
+  - We talked about the structure of a Kanban board.
+
+  | Backlog | Specify | Implement | Validate |
+  | --- | --- | --- | --- |
+  | Item1 | Item4 | Item 6 | Item3 |
+  | | Item7 | | Item2 |
+
+  - The philosophy of Kanban is the pull model visually represented and often referenced and touched by devs working specific tasks.
+  - Kanban does not cover
+    - Design Patterns
+    - Unit Testing
+    - Continuous Integration
+    - Design and Code Reviews
+    - Static Analysis
+    - Pair Programming
+    - Test-Driven Deployment
+    - Continuous Deployment
+  - Kanban should emphasize a teams high-level routine into three stages
+    - Specify, Implement, and Validate.
+    - These stages should all have an "active" and "done" column to measure what is being worked, and what can progress to the next stage.
+  - Work in Progress (WIP) is the limit of tasks each column can contain
+
+  #### Software Architecture
+  - Large software systems must be broken into small modular organized distinct pieces of code.
+  - A higher lvl view of a system should be based on; 
+    1. User Interaction
+    2. Business Logic
+    3. Data Handling
+  - Architectural Patterns define a vocabulary of a type of software archetecture
+    1. Model-View-Controller (MVC) software architecture defines;
+      1. Model (Handles Data and Business Logic)
+      2. View (Handles User Interface)
+      3. Controller (Handles the bridge connection between Model and View)
+    2. Client-Server
+      1. Server (contains service components that takes requests)
+      2. Client (Generates requests that are sent through web server)
+    3. Bus
+      - Components are all modularly references inside a generally monolithic structure.
+      - Bus architectures are comming in Computer Networking
+    4. Layered
+      - Divides system architecture into high-to-low layers based on user interface to system management (think threads)
+    5. Event Driven
+      - An event is a change in state that a system responds to.
+      1. Producer (Creates a notification)
+      2. Router (Passes events from producer to consumer)
+      3. Consumer (Handles events)
+      - Other terms are used i.e. (publisher->subscriber->broker)
+    6. Plug-In
+      - When a large system is in some sense "open-source" but allows other people outside the organization to add functionality to the application.
+    - Combining difference architectural patterns may add additional elements of functionality or development
 
 ## Week-05
 [09/21/26 - 09/27/26](#TOP)  
+  - *Testing* is done to validate functionality.
+  - White-box approach takes into account knowledge of the internal structure of software components or its system
+  - Black-box does not use internal information.
+  - Grey-box uses limited information.
+  - Testing can be Automated, Manual, Scripted, or Unscripted.
+  - Coverage is a metric that defines the portion of software being tested.
+  - Tests that overlaps the same systems is defined as *orthogonal* to one another.
+  - *Ad-hoc testing* happens when developers execute software just to see if it works. (Not usually included in testing plans)
+  - *Unit testing* examines an individual software component using an automated *test suite*
+    - *Unit testing frameworks* aka *harnesses* are standards or templates used to create or run and report tests.
+    - *doctests* allow for documentation that also function as unit tests.
+  - *Integration testing* is testing software components as a group to verify interconnectivity.
+  - *Software testing* validates the system as a whole.
+  - Note the levels of abstraction here.
+  - Note other methods of testing:
+    - Usability, Security, Accessibility, Alpha & Beta, Acceptance, Regression.
 
 ## Week-06
 [09/28/26 - 10/04/26](#TOP)  
